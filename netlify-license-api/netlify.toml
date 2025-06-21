@@ -1,9 +1,7 @@
 [build]
   functions = "netlify/functions"
-  publish = "public" # Anda bisa membuat folder 'public' kosong jika diperlukan
 
 [[redirects]]
   from = "/validate"
   to = "/.netlify/functions/api/validate"
   status = 200
-  force = true
