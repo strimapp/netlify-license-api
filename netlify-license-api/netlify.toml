@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/validate"
+  to = "/.netlify/functions/validate"
+  status = 200
